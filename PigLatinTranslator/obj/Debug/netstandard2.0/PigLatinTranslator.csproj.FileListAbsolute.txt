@@ -1,0 +1,9 @@
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.csprojAssemblyReference.cache
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.AssemblyInfoInputs.cache
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.AssemblyInfo.cs
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/PigLatin/PigLatinTranslator/bin/Debug/netstandard2.0/PigLatinTranslator.deps.json
+/Users/apple/Documents/PigLatin/PigLatinTranslator/bin/Debug/netstandard2.0/PigLatinTranslator.dll
+/Users/apple/Documents/PigLatin/PigLatinTranslator/bin/Debug/netstandard2.0/PigLatinTranslator.pdb
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.dll
+/Users/apple/Documents/PigLatin/PigLatinTranslator/obj/Debug/netstandard2.0/PigLatinTranslator.pdb
