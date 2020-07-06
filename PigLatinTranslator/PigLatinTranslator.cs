@@ -16,16 +16,11 @@ namespace PigLatinTranslator
                 return "";
             }
 
-            Char firstLetter = s[0];
-
             string stringWithRemovedPunc = Regex.Replace(s,"[?!,.]", "");
+            Char firstLetter = s[0];
             Match punc = Regex.Match(s, "[?!,.]");
 
-            // Console.WriteLine(punc);
-            // Console.WriteLine(punc.Value);
-            // Console.WriteLine(punc.Index);
-
-            if (vowels.Contains(Char.ToLower(firstLetter))) {
+            if (isVowel(firstLetter)) {
                 return stringWithRemovedPunc + "yay" + punc.Value;
             } else {
                 int idx = getIndexOfFirstVowel(stringWithRemovedPunc);
@@ -43,6 +38,10 @@ namespace PigLatinTranslator
             }
         }
 
+        private bool isVowel(Char c) {
+            return vowels.Contains(Char.ToLower(c));
+        }
+
         public string TranslateSentence(string sentence) {
             string[] splitString = sentence.Split(' ');
 
@@ -50,7 +49,6 @@ namespace PigLatinTranslator
 
             foreach (var word in splitString)
             {
-
                res.Add(translateWord(word));
             }
 
